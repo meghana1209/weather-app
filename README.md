@@ -1,75 +1,118 @@
-📌 Weather App
-A simple and responsive Weather App built using HTML, CSS, and JavaScript that fetches real-time weather data using the OpenWeatherMap API. Users can search for any city and view the current temperature, weather condition, humidity, and wind speed.
 
-🌦️ Features
-🌍 Search weather by city name
+````markdown
+# 📌 Weather App
 
-🌡️ Real-time temperature, humidity, and wind speed
+A simple and responsive **Weather App** built using **HTML**, **CSS**, and **JavaScript**. It uses the **OpenWeatherMap API** to fetch real-time weather data based on city name input by the user. This app displays current temperature, humidity, wind speed, and weather condition with icons.
 
-🌤️ Weather icon based on current condition
+---
 
-📱 Responsive design for desktop and mobile
+## 🌦️ Features
 
-⚡ Instant fetch using OpenWeather API
+- 🌍 Search weather by city name
+- 🌡️ Shows real-time temperature, humidity, and wind speed
+- 🌤️ Displays weather icons based on conditions
+- 📱 Fully responsive design (mobile + desktop)
+- ⚡ Powered by OpenWeatherMap API
 
-🛠️ Tech Stack
-Frontend: HTML, CSS, JavaScript
+---
 
-API: OpenWeatherMap API
+## 🛠️ Tech Stack
 
-📸 Screenshots
-(Optional: Add screenshot images in your project folder and link them like below)
+- **Frontend:** HTML, CSS, JavaScript
+- **API:** [OpenWeatherMap API](https://openweathermap.org/api)
 
-md
-Copy
-Edit
-![Weather App Screenshot](![image](https://github.com/user-attachments/assets/60a52fcc-19dc-4f75-bc8b-5311e38810bf)
+---
 
-🔧 Setup Instructions
-Clone the Repository
+## 📸 Screenshots
 
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/weather-app.git
+> *(You can add screenshots by placing image files in a `screenshots/` folder and linking below)*
+
+```md
+![App Screenshot](./screenshots/weather-app-screenshot.png)
+````
+
+---
+
+## 🔧 Setup Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/meghana1209/weather-app.git
 cd weather-app
-Get OpenWeatherMap API Key
+```
 
-Sign up at https://openweathermap.org/api
+### 2. Get Your API Key
 
-Go to your dashboard and copy the API key
+* Sign up at [https://openweathermap.org/api](https://openweathermap.org/api)
+* Navigate to your API dashboard and copy your API key
 
-Add your API Key
-In your script.js or wherever you're making the API call, replace the placeholder with your key:
+### 3. Add Your API Key
 
-javascript
-Copy
-Edit
+Open your `script.js` file and replace the placeholder with your actual API key:
+
+```javascript
 const apiKey = 'YOUR_API_KEY_HERE';
-Run the Project
+```
 
-Simply open index.html in your browser
+### 4. Run the App
 
-📂 Project Structure
-Copy
-Edit
+Just open the `index.html` file in your web browser:
+
+```bash
+start index.html   # Windows
+open index.html    # macOS
+xdg-open index.html  # Linux
+```
+
+---
+
+## 📁 Project Structure
+
+```
 weather-app/
 ├── index.html
 ├── style.css
 ├── script.js
 └── README.md
-🚀 Live Demo
-(Optional if hosted on GitHub Pages or Netlify)
+```
 
-🔗 Live Preview
+---
 
-🙌 Acknowledgements
-OpenWeatherMap for providing the weather data API
+## 🚀 Live Demo
 
-Inspired by simple weather app UI from Dribbble & CodePen
+> *(Optional: If deployed via GitHub Pages or Netlify)*
+> 🔗 [Live Preview](https://meghana1209.github.io/weather-app)
 
-📬 Contact
-Created by Meghana B 
-For suggestions or collaborations, feel free to reach out!
+---
 
-⭐ Don’t forget to star the repo if you liked it!
+## 🙌 Acknowledgements
+
+* [OpenWeatherMap API](https://openweathermap.org/)
+* UI inspired by modern minimal weather apps on Dribbble & CodePen
+
+---
+
+## 👩‍💻 Author
+
+**Meghana B**
+📧 [GitHub](https://github.com/meghana1209)
+
+---
+
+## ⭐ Show your support
+
+If you like this project, give it a ⭐ on [GitHub](https://github.com/meghana1209/weather-app)!
+
+---
+
+```
+
+Let me know if you'd like:
+- A `weather-app-screenshot.png` created for you
+- GitHub Pages setup instructions for live deployment
+- License section added (e.g., MIT)
+
+Ready to enhance your GitHub profile!
+```
+
