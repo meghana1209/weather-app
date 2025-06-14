@@ -26,8 +26,8 @@ A simple and responsive **Weather App** built using **HTML**, **CSS**, and **Jav
 
 > *(You can add screenshots by placing image files in a `screenshots/` folder and linking below)*
 
-```md
-![App Screenshot](./screenshots/weather-app-screenshot.png)
+![App Screenshot](![image](https://github.com/user-attachments/assets/b731d2ae-e2d9-4e65-bfff-4b72ca3c1687)
+)
 ````
 
 ---
