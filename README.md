@@ -1,5 +1,4 @@
 
-````markdown
 # 📌 Weather App
 
 A simple and responsive **Weather App** built using **HTML**, **CSS**, and **JavaScript**. It uses the **OpenWeatherMap API** to fetch real-time weather data based on city name input by the user. This app displays current temperature, humidity, wind speed, and weather condition with icons.
